@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <h1>Este es mi proyecto REACT</h1>
-    </>
-  )
+    <div style={{ padding: 20 }}>
+      <h1>Hola React!</h1>
+      <p>Ya se está renderizando ✅</p>
+    </div>
+  );
 }
-
-export default App
